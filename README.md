@@ -1,5 +1,5 @@
 # Autonomous Car Project
-This is the source code for a path-following autonomous car. It's written in **C++** and implements a **PID** controller to follow a black-line path. The **Embedded System** utilizes 8 Infrared LEDs and Phototransitors to detect how well the car is following the path using **Sensor Fusion**. The repository contains several utility files for reading from the sensors and retrieving the encoder count. The main source code is in: `AutonomousCar.cpp`. The track the car had to navigate is shown in `AutonomousCarTrack.pdf`.
+This is the source code for a path-following autonomous car. It's written in **C++** and implements a **PID** controller to follow a black-line path. The **Embedded System** utilizes 8 Infrared LEDs and Phototransistors to detect how well the car is following the path using **Sensor Fusion**. The repository contains several utility files for reading from the sensors and retrieving the encoder count. The main source code is in: `AutonomousCar.cpp`. The track the car had to navigate is shown in `AutonomousCarTrack.pdf`. It contained various starting positions, discontinuities, sharp U-turns, and a cross bar at the beginning and end. 
 
 # Technologies
 - Texas Instruments MSP432 Microntroller (ARM-Based)
